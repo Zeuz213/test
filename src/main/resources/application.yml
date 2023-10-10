@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: carteiradeinvestimentos-api
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/carteiraDeInvestimentos
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+server:
+  port: 8080
